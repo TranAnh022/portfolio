@@ -1,6 +1,6 @@
 header {
   height: 100vh;
-  padding-top: 7rem;
+  padding-top: 4rem;
   overflow: hidden;
 }
 
@@ -26,7 +26,7 @@ header {
   gap: 0.8rem;
   position: absolute;
   left: 0;
-  bottom: 3rem;
+  bottom: 5rem;
 }
 
 .header__socials::after {
@@ -47,7 +47,7 @@ header {
   padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
 
-img {
+.img__header {
   border-radius: 50%;
   border: 5px solid var(--color-primary);
 }
@@ -57,7 +57,7 @@ img {
 .scroll__down {
   position: absolute;
   right: -2.3rem;
-  bottom: 5rem;
+  bottom: 10rem;
   transform: rotate(90deg);
   font-size: 0.9rem;
 }
@@ -65,7 +65,11 @@ img {
 /*================ MEDIA QUERIES(MEDIUM DEVICES) =======*/
 @media screen and (max-width: 1024px) {
   header {
-    height: 68vh;
+    height: 92vh;
+  }
+  .me {
+    width: 15rem;
+    height: 20rem;
   }
 }
 
