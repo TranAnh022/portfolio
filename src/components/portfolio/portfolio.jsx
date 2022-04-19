@@ -3,6 +3,10 @@ import './portfolio.css'
 import YelpCamp from '../../assests/YelpCamp.png'
 import PingPong from '../../assests/PingPong.png'
 import MuseumCandy from '../../assests/museumCandy.png'
+import Amazon_Clone from '../../assests/amazon_clone.png'
+import Netflix_Clone from '../../assests/netflix_clone.png'
+import Galaxy_Travel from '../../assests/galaxy_travel.png'
+
 const portfolio = () => {
   return (
     <section id='portfolio'>
@@ -35,6 +39,33 @@ const portfolio = () => {
           <div className="portfolio__item-cta">
           <a href="https://github.com/TranAnh022/ScoreKeeper-DOM" className='btn' rel="noreferrer" target='_blank'>GitHub</a>
           <a href="https://compassionate-torvalds-a13e9d.netlify.app" className='btn btn-primary' rel="noreferrer" target='_blank'>Live Demo</a>
+          </div>
+        </article>
+        <article className='portfolio__items'>
+          <div className="portfolio__item-img">
+            <img src={Amazon_Clone} alt="" /></div>
+          <h2>Amazon Clone</h2>
+          <div className="portfolio__item-cta">
+          <a href="https://github.com/TranAnh022/amazon_clone" className='btn' rel="noreferrer" target='_blank'>GitHub</a>
+          <a href="https://clone-91b56.web.app/" className='btn btn-primary' rel="noreferrer" target='_blank'>Live Demo</a>
+          </div>
+        </article>
+        <article className='portfolio__items'>
+          <div className="portfolio__item-img">
+            <img src={Netflix_Clone} alt="" /></div>
+          <h2>Netflix Clone</h2>
+          <div className="portfolio__item-cta">
+          <a href="https://github.com/TranAnh022/NETFLIX_Clone" className='btn' rel="noreferrer" target='_blank'>GitHub</a>
+          <a href="https://netflix-42495.web.app/" className='btn btn-primary' rel="noreferrer" target='_blank'>Live Demo</a>
+          </div>
+        </article>
+        <article className='portfolio__items'>
+          <div className="portfolio__item-img">
+            <img src={Galaxy_Travel} alt="" /></div>
+          <h2>Galaxy Travel</h2>
+          <div className="portfolio__item-cta">
+          <a href="https://github.com/TranAnh022/react-galaxy-travel" className='btn' rel="noreferrer" target='_blank'>GitHub</a>
+          <a href="https://helpful-frangipane-152d76.netlify.app/" className='btn btn-primary' rel="noreferrer" target='_blank'>Live Demo</a>
           </div>
         </article>
       </div>

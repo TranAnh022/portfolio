@@ -2,8 +2,9 @@ import React from 'react'
 import './experience.css'
 import { AiOutlineHtml5 } from 'react-icons/ai'
 import {IoLogoCss3,IoLogoJavascript,IoLogoNodejs} from 'react-icons/io'
-import {BsBootstrapFill} from 'react-icons/bs'
-import {SiDeno,SiMongodb,SiPostgresql} from 'react-icons/si'
+import { BsBootstrapFill } from 'react-icons/bs'
+import {FaReact} from 'react-icons/fa'
+import {SiDeno,SiMongodb,SiPostgresql,SiTypescript} from 'react-icons/si'
 const experience = () => {
   return (
     <section id='experience'>
@@ -40,7 +41,21 @@ const experience = () => {
               <BsBootstrapFill className="experience__icon"/>
               <div>
               <h4>Bootstrap</h4>
-              <small>Immidiate</small>
+              <small>Intermediate</small>
+             </div>
+            </article>
+            <article className='experience__details'>
+              <FaReact className="experience__icon"/>
+              <div>
+              <h4>React</h4>
+              <small>Intermediate</small>
+             </div>
+            </article>
+            <article className='experience__details'>
+              <SiTypescript className="experience__icon"/>
+              <div>
+              <h4>TypeScripe</h4>
+              <small>Intermediate</small>
              </div>
             </article>
           </div>
@@ -75,7 +90,21 @@ const experience = () => {
               <SiMongodb className="experience__icon"/>
               <div>
                 <h4>MongoDB</h4>
-              <small>Immidiate</small>
+              <small>Intermediate</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <img
+                src="https://www.sanity.io/static/images/favicons/apple-icon-180x180.png" className="experience__icon_sanity"
+                style={{
+                  width: "15px",
+                  height: "15px",
+                  color: "#4db5ff"
+                }}
+              />
+              <div>
+                <h4>Sanity</h4>
+              <small>Intermediate</small>
               </div>
             </article>
           </div>
