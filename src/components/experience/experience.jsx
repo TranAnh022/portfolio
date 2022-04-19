@@ -95,6 +95,7 @@ const experience = () => {
             </article>
             <article className='experience__details'>
               <img
+                alt="logo"
                 src="https://www.sanity.io/static/images/favicons/apple-icon-180x180.png" className="experience__icon_sanity"
                 style={{
                   width: "15px",
