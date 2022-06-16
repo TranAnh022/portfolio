@@ -20,42 +20,36 @@ const experience = () => {
               <AiOutlineHtml5 className="experience__icon"/>
               <div>
               <h4>HTML</h4>
-              <small>Intermediate</small>
               </div>
             </article>
             <article className='experience__details'>
               <IoLogoCss3 className="experience__icon"/>
               <div>
               <h4>CSS</h4>
-              <small>Intermediate</small>
               </div>
             </article>
             <article className='experience__details'>
               <IoLogoJavascript className="experience__icon"/>
               <div>
               <h4>Javascript</h4>
-              <small>Intermediate</small>
               </div>
             </article>
             <article className='experience__details'>
               <BsBootstrapFill className="experience__icon"/>
               <div>
               <h4>Bootstrap</h4>
-              <small>Intermediate</small>
              </div>
             </article>
             <article className='experience__details'>
               <FaReact className="experience__icon"/>
               <div>
               <h4>React</h4>
-              <small>Intermediate</small>
              </div>
             </article>
             <article className='experience__details'>
               <SiTypescript className="experience__icon"/>
               <div>
-              <h4>TypeScripe</h4>
-              <small>Intermediate</small>
+              <h4>Redux</h4>
              </div>
             </article>
           </div>
@@ -69,28 +63,24 @@ const experience = () => {
               <IoLogoNodejs className="experience__icon"/>
               <div>
               <h4>NodeJS</h4>
-              <small>Intermediate</small>
               </div>
             </article>
             <article className='experience__details'>
               <SiDeno className="experience__icon"/>
               <div>
               <h4>Deno</h4>
-              <small>Intermediate</small>
               </div>
             </article>
             <article className='experience__details'>
               <SiPostgresql className="experience__icon"/>
               <div>
-              <h4>My SQL</h4>
-              <small>Intermediate</small>
+              <h4>Express</h4>
              </div>
             </article>
             <article className='experience__details'>
               <SiMongodb className="experience__icon"/>
               <div>
                 <h4>MongoDB</h4>
-              <small>Intermediate</small>
               </div>
             </article>
             <article className='experience__details'>
@@ -105,7 +95,6 @@ const experience = () => {
               />
               <div>
                 <h4>Sanity</h4>
-              <small>Intermediate</small>
               </div>
             </article>
           </div>
