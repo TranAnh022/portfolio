@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-#DEMO: https://eloquent-squirrel-0b97df.netlify.app 
+#DEMO: [portfolio-trananh.netlify.app](https://portfolio-trananh.netlify.app/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
