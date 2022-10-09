@@ -25,22 +25,22 @@ const About = () => {
               <h5>Experience</h5>
               <small>Junior of Vaasa UAS</small>
             </article>
-          
+
             <article className='about__card'>
               <GiHobbitDwelling className='about__icons'/>
               <h5>Hobbies</h5>
               <small>Cooking,Music,...</small>
             </article>
-       
+
             <article className='about__card'>
               <AiOutlineFundProjectionScreen className='about__icons'/>
               <h5>Projects</h5>
               <small>5 projects</small>
             </article>
           </div>
-        
+
           <p>
-            I'm a self-taught full stack web developer from Finland. I'm actively looking for an intership or entry level position.
+          I'm a fourth-year student at Vamk with a major in Information Technology. I'm eager to learn new things and socialize with others. I take great care in the experience, architecture, and code quality of the projects I build. I'm actively looking for an intership or entry level position.
         </p>
 
         <a href="#contact" className='btn btn__primary'>Let's talk</a>
