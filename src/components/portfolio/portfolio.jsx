@@ -1,6 +1,6 @@
 import React from "react";
 import "./portfolio.css";
-import YelpCamp from "../../assests/YelpCamp.png";
+import CampingSite from "../../assests/CampingSite.png";
 import PingPong from "../../assests/PingPong.png";
 import MuseumCandy from "../../assests/museumCandy.png";
 import Eshop from "../../assests/e-shop.png";
@@ -16,12 +16,12 @@ const portfolio = () => {
       <div className="container portfolio__container">
         <article className="portfolio__items">
           <div className="portfolio__item-img">
-            <img src={YelpCamp} alt="" />
+            <img src={CampingSite} alt="" />
           </div>
-          <h2>Yelp Camp</h2>
+          <h2>Camping Site</h2>
           <div className="portfolio__item-cta">
             <a
-              href="https://github.com/TranAnh022/YelpCamp"
+              href="https://github.com/TranAnh022/frontend_campingsite"
               className="btn"
               rel="noreferrer"
               target="_blank"
@@ -29,7 +29,7 @@ const portfolio = () => {
               GitHub
             </a>
             <a
-              href="https://yelpcamp-app-w84c.onrender.com/"
+              href="https://campingsite.netlify.app"
               className="btn btn-primary"
               rel="noreferrer"
               target="_blank"

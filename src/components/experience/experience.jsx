@@ -5,7 +5,7 @@ import {IoLogoCss3,IoLogoJavascript,IoLogoNodejs} from 'react-icons/io'
 
 import {FaReact} from 'react-icons/fa'
 import {
-  SiDeno,
+  SiDotnet,
   SiMongodb,
   SiPostgresql,
   SiTypescript,
@@ -72,9 +72,9 @@ const experience = () => {
               </div>
             </article>
             <article className="experience__details">
-              <SiDeno className="experience__icon" />
+              <SiDotnet className="experience__icon" />
               <div>
-                <h4>Deno</h4>
+                <h4>Dotnet</h4>
               </div>
             </article>
             <article className="experience__details">
